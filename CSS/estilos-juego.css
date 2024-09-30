@@ -10,7 +10,7 @@ body {
 }
 
 header {
-  background: rgba(161, 76, 169, 0.7);
+  background: rgba(161, 76, 169, 0);
   width: 80%;
   margin: 0 auto;
   size: 1vw;
@@ -24,7 +24,13 @@ header ul {
 }
 
 header li{
+  background: rgba(161, 76, 169, 0.7);
   display: inline-block;
+  width: 20%;
+  height: 250%;
+  border: solid;
+  border-radius: 30px;
+  border-color: rgba(255,255,255,0.6);
 }
 
 header li a {
@@ -43,7 +49,7 @@ li:hover {
 
 
 h1 {
-  font-size: 6vw;
+  font-size: 3.5vw;
   color: white;
 }
 
@@ -105,10 +111,7 @@ button:active {
 
 /*NUEVO*/
 .logo  {
-    position: absolute;  /* Posiciona la imagen en relación al contenedor */
-    bottom: -3000px;         /* 5% de la altura de la ventana desde la parte inferior */
-    right: 30px;          /* 5% del ancho de la ventana desde el lado derecho */
-    width: 10vw;         /* 10% del ancho de la ventana */
+    width: 15vw;         /* 10% del ancho de la ventana */
     height: auto;        /* Mantiene la proporción de la imagen */
 }
 
@@ -171,12 +174,14 @@ li:hover {
 
 
 h1 {
-  font-size: 10vw;
+	font-family: "Roboto";
+  margin-top: 2vw;
+  font-size: 8vw;
   color: white;
 }
 
 h2 {
-  
+    font-family: "Roboto";
   color: white;
   font-size: 3.5vw;
   background-color: rgba(0, 0, 0, 0.5);
@@ -234,10 +239,8 @@ button:active {
 
 /*NUEVO*/
 .logo  {
-    position: absolute;  /* Posiciona la imagen en relación al contenedor */
-    bottom: 50px;         /* 5% de la altura de la ventana desde la parte inferior */
-    right: 60px;          /* 5% del ancho de la ventana desde el lado derecho */
-    width: 20vw;         /* 10% del ancho de la ventana */
+    margin-top: 14vw;   /* 5% del ancho de la ventana desde el lado derecho */
+    width: 40vw;         /* 10% del ancho de la ventana */
     height: auto;        /* Mantiene la proporción de la imagen */
 }
 
