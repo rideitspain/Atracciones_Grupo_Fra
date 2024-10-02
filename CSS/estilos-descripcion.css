@@ -34,6 +34,7 @@ header li{
 }
 
 header li a {
+
   font-size: 1.5vw;
   display: inline;
   padding: 1vw;
@@ -42,14 +43,9 @@ header li a {
   text-decoration: none;
 }
 
-li:hover {
-  background: pink;
-  border-radius: 15px;
-}
-
 
 h1 {
-  font-size: 3.5vw;
+  font-size: 3vw;
   color: white;
 }
 
@@ -65,15 +61,17 @@ h2 {
 }
 
 button {
-  background-color: rgba(0, 0, 0, 0.5);
+  position: relative;
+  bottom: 6vw;
+  transition: transform 0.3s ease;
+  animation: aparecer 0.5s;
   border: 1px solid white;
-  padding: 0.5vw;
+  padding: 1.5vw;
   text-align: center;
-  font-size: 1.5vw;
+  font-size: 2vw;
   font-family: 'Roboto', sans-serif;
   color: white;
   font-weight: bold;
-  border-radius: 3px;
 }
 
 button:hover {
@@ -85,7 +83,8 @@ button:active {
 }
 
 @keyframes pulsarAnimacion {
-  0% {
+ 
+   0% {
     transform: scale(1);
   }
   50% {
@@ -107,12 +106,14 @@ button:active {
   }
 }
 
-
-
 /*NUEVO*/
 .logo  {
-    width: 15vw;         /* 10% del ancho de la ventana */
+    width: 9.5vw;         /* 10% del ancho de la ventana */
     height: auto;        /* Mantiene la proporción de la imagen */
+}
+
+img:hover{
+  transform: scale(1.3);
 }
 
 .logo-titulo  {
@@ -120,6 +121,76 @@ button:active {
     width: 25vw;         /* 10% del ancho de la ventana */
     height: auto;        /* Mantiene la proporción de la imagen */
 }
+
+.ferias {
+  transition: transform 0.3s ease;
+  animation: aparecer 0.5s;
+  color: white;
+  font-size: 1.5vw;
+  font-weight: bold;
+  background-color: rgba(0, 0, 0, 0.5);
+  background-size: 12px;
+  width: 50%;
+  margin: 0 auto;
+
+}
+
+.ferias:hover {
+  transform: scale(1.3);
+}
+
+.ferias:active {
+  animation: pulsarAnimacion 0.9s ease forwards;
+}
+
+header li a {
+  transition: transform 0.3s ease;
+  animation: aparecer 0.5s;
+}
+
+header {
+  transition: transform 0.3s ease;
+  animation: aparecer 0.5s;
+}
+
+header ul {
+  transition: transform 0.3s ease;
+  animation: aparecer 0.5s;
+}
+
+header li{
+  transition: transform 0.3s ease;
+  animation: aparecer 0.5s;
+}
+
+li:hover {
+  background: pink;
+  border-radius: 15px;
+  transform: scale(1.2);
+  
+}
+
+button {
+  position: relative;
+  bottom: 6vw;
+  transition: transform 0.3s ease;
+  animation: aparecer 0.5s;
+  border-radius: 90px;
+  background-color: rgba(161, 76, 169, 0.7);
+
+}
+
+img{
+  transition: transform 0.3s ease;
+  animation: aparecer 0.5s;
+}
+
+.logo  {
+	transition: transform 0.3s ease;
+    animation: aparecer 0.5s;
+}
+
+
 }
 
 @media (max-width: 999px) {
@@ -176,24 +247,23 @@ li:hover {
 h1 {
 	font-family: "Roboto";
   margin-top: 2vw;
-  font-size: 8vw;
+  font-size: 6vw;
   color: white;
 }
 
 h2 {
     font-family: "Roboto";
   color: white;
-  font-size: 3.5vw;
+  font-size: 5vw;
   background-color: rgba(0, 0, 0, 0.5);
   background-size: 24px;
-  width: 80%;
+  width: 94%;
   margin: 0 auto;
 
 }
 
 button {
   
-  background-color: rgba(0, 0, 0, 0.5);
   border: 1px solid white;
   padding: 4vw;
   text-align: center;
@@ -201,7 +271,6 @@ button {
   font-family: 'Roboto', sans-serif;
   color: white;
   font-weight: bold;
-  border-radius: 5px;
 }
 
 button:hover {
@@ -234,13 +303,81 @@ button:active {
     transform: translateY(0);
   }
 }
+  
+  /*ANIMACIONES BASIC*/
+img{
+  transition: transform 0.3s ease;
+  animation: aparecer 0.5s;
+}
+  
+img:hover{
+  transform: scale(1.3);
+}
+
+header li a {
+  transition: transform 0.3s ease;
+  animation: aparecer 0.5s;
+}
+
+header {
+  transition: transform 0.3s ease;
+  animation: aparecer 0.5s;
+}
+
+header ul {
+  transition: transform 0.3s ease;
+  animation: aparecer 0.5s;
+}
+
+header li{
+  transition: transform 0.3s ease;
+  animation: aparecer 0.5s;
+}
+
+li:hover {
+  background: pink;
+  border-radius: 15px;
+  transform: scale(1.2);
+  
+}
+
+/*ANIMACIONES BASIC*/
+
+.ferias {
+  transition: transform 0.3s ease;
+  animation: aparecer 0.5s;
+  color: white;
+  font-size: 3.5vw;
+  font-weight: bold;
+  background-color: rgba(0, 0, 0, 0.5);
+  background-size: 12px;
+  width: 94%;
+  margin: 0 auto;
+
+}
+
+.ferias:active {
+  animation: pulsarAnimacion 0.9s ease forwards;
+}
+
+button {
+  position: relative;
+  bottom: 6vw;
+  transition: transform 0.3s ease;
+  animation: aparecer 0.5s;
+  border-radius: 90px;
+  background-color: rgba(161, 76, 169, 0.7);
+
+}
+
+
 
 
 
 /*NUEVO*/
 .logo  {
     margin-top: 14vw;   /* 5% del ancho de la ventana desde el lado derecho */
-    width: 40vw;         /* 10% del ancho de la ventana */
+    width: 30vw;         /* 10% del ancho de la ventana */
     height: auto;        /* Mantiene la proporción de la imagen */
 }
 

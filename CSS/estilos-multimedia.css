@@ -129,6 +129,35 @@ button:active {
     height: 30vw;        /* Mantiene la proporción de la imagen */
 }
 
+/*ANIMACIONES BASIC*/
+header li a {
+  transition: transform 0.3s ease;
+  animation: aparecer 0.5s;
+}
+
+header {
+  transition: transform 0.3s ease;
+  animation: aparecer 0.5s;
+}
+
+header ul {
+  transition: transform 0.3s ease;
+  animation: aparecer 0.5s;
+}
+
+header li{
+  transition: transform 0.3s ease;
+  animation: aparecer 0.5s;
+}
+
+li:hover {
+  background: pink;
+  border-radius: 15px;
+  transform: scale(1.2);
+  
+}
+
+/*ANIMACIONES BASIC*/
 }
 
 @media (max-width: 999px) {
@@ -265,5 +294,36 @@ button:active {
     width: auto;         /* 10% del ancho de la ventana */
     height: 40vw;        /* Mantiene la proporción de la imagen */
 }
+
+/*ANIMACIONES BASIC*/
+
+header li a {
+  transition: transform 0.3s ease;
+  animation: aparecer 0.5s;
+}
+
+header {
+  transition: transform 0.3s ease;
+  animation: aparecer 0.5s;
+}
+
+header ul {
+  transition: transform 0.3s ease;
+  animation: aparecer 0.5s;
+}
+
+header li{
+  transition: transform 0.3s ease;
+  animation: aparecer 0.5s;
+}
+
+li:hover {
+  background: pink;
+  border-radius: 15px;
+  transform: scale(1.2);
+  
+}
+
+/*ANIMACIONES BASIC*/
 
 }
