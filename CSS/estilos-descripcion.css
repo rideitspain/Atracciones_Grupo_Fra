@@ -1,5 +1,11 @@
 @media (min-width: 1000px) {
 
+p{
+  font-family: "Roboto";
+  color: white;
+  text-align: center;
+  font-size: 1.5 vw;
+}
 body {
   font-family: "Roboto";
   color: black;
