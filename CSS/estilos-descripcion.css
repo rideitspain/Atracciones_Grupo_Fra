@@ -6,6 +6,7 @@ p{
   text-align: center;
   font-size: 1.5 vw;
 }
+	
 body {
   font-family: "Roboto";
   color: black;
@@ -200,6 +201,14 @@ img{
 }
 
 @media (max-width: 999px) {
+
+p{
+  font-family: "Roboto";
+  color: white;
+  text-align: center;
+  font-size: 1.5 vw;
+}
+
 body {
   font-family: "Roboto";
   color: black;
