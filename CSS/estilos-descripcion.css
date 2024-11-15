@@ -4,7 +4,7 @@ p{
   font-family: "Roboto";
   color: white;
   text-align: center;
-  font-size: 3 vw;
+  font-size: 2vw;
 }
 	
 body {
@@ -200,13 +200,19 @@ img{
 
 }
 
+
+
+
+
+
+/*PARA MOVIL*/
 @media (max-width: 999px) {
 
 p{
   font-family: "Roboto";
   color: white;
   text-align: center;
-  font-size: 3 vw;
+  font-size: 3vw;
 }
 
 body {
