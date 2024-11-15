@@ -18,7 +18,7 @@ document.addEventListener("DOMContentLoaded", function () {
   function ranking() {
 	document.body.appendChild(buttonElement2);
 	buttonElement.remove();
-    p1.innerText = "'Super Kanguro, Trullo XXL y Flash Maxx' en Parque de Berlín \n Fiestas de San Miguel, 20 - 29 Septiembre 2024";
+    p1.innerText = "Navidalia, Ciudad de la Navidad \n Recinto ferial de Getafe, 29 Nov. - 6 Enero 2025";
     p2.innerText = "'Trullo XXL' en Boadilla del Monte \n Fiestas del Rosario, 4 - 13 Octubre 2024 ";
     p3.innerText = "'Flash Maxx' en San Nicasio, Leganés \n Fiestas de San Nicasio, 4 - 13 Octubre 2024 ";
     p4.innerText = "Mas ubicaciones y fechas \n PROXIMAMENTE";
