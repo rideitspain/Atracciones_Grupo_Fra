@@ -237,23 +237,23 @@ img:hover{
 	top: -5vw;
 	left: -5vw;
 	width: 22vw;         /* 10% del ancho de la ventana */
-    height: auto;
+    	height: auto;
 	background-color: rgba(0, 0, 0, 0.5);
 }
 .logo7{
 	position: relative;  
 	top: -5vw;
 	left: 25vw;
-	 background-color: rgba(0, 0, 0, 0.5);
+	background-color: rgba(0, 0, 0, 0.5);
 	width: 24vw;         /* 10% del ancho de la ventana */
-    height: auto;
+   	height: auto;
 }
 .logo9{
 	position: relative;   
 	top: 1.5vw;
 	left: -23vw;
 	width: 19vw;         /* 10% del ancho de la ventana */
-    height: auto;
+  	height: auto;
 }
 	
 }
@@ -450,15 +450,16 @@ button:active {
 	position: relative;  
 	top: 60vw;
 	left: -2vw;
-	width: 24vw;         /* 10% del ancho de la ventana */
-    height: auto;
+	width: 35vw;         /* 10% del ancho de la ventana */
+    	height: auto;
+	background-color: rgba(0, 0, 0, 0.5);
 }
 
 .logo8{
 	position: relative;   
 	top: 30vw;
 	left: 25vw;
-	width: 30vw;         /* 10% del ancho de la ventana */
+	width: 35vw;         /* 10% del ancho de la ventana */
 	height: auto;
 	background-color: rgba(0, 0, 0, 0.5);
 }
@@ -467,9 +468,9 @@ button:active {
 	position: relative;   
 	top: 4vw;
 	left: -26vw;
-	width: 27vw;         /* 10% del ancho de la ventana */
+	width: 25vw;         /* 10% del ancho de la ventana */
 	height: auto;
-	background-color: rgba(0, 0, 0, 0.5);
+	
 }
 
 .rojo{
