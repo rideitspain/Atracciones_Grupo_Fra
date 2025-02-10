@@ -448,6 +448,32 @@ button:active {
     height: auto;
 }
 
+.logo8{
+	position: relative;   
+	top: 60 vw;
+	left: -5vw;
+	width: 22vw;         /* 10% del ancho de la ventana */
+    height: auto;
+	background-color: rgba(0, 0, 0, 0.5);
+}
+
+.logo7{
+	position: relative;  
+	top: 30vw;
+	left: 25vw;
+	 background-color: rgba(0, 0, 0, 0.5);
+	width: 24vw;         /* 10% del ancho de la ventana */
+    height: auto;
+}
+
+.logo9{
+	position: relative;   
+	top: 4vw;
+	left: -23vw;
+	width: 19vw;         /* 10% del ancho de la ventana */
+    height: auto;
+}
+
 .rojo{
 	position: relative; 
 	top: 60vw;}
