@@ -232,29 +232,27 @@ img:hover{
     height: auto;
 }
 
-.logo8{
-	position: relative;   
-	top: -5vw;
-	left: -5vw;
-	width: 22vw;         /* 10% del ancho de la ventana */
-    height: auto;
-	background-color: rgba(0, 0, 0, 0.5);
-}
-
 .logo7{
 	position: relative;  
-	top: -5vw;
+	top: 1.5vw;
 	left: 25vw;
-	 background-color: rgba(0, 0, 0, 0.5);
-	width: 24vw;         /* 10% del ancho de la ventana */
+	width: 16.5vw;         /* 10% del ancho de la ventana */
+    height: auto;
+}
+
+.logo8{
+	position: relative;   
+	top: 1.5vw;
+	left: -8vw;
+	width: 19vw;         /* 10% del ancho de la ventana */
     height: auto;
 }
 
 .logo9{
 	position: relative;   
 	top: 1.5vw;
-	left: -23vw;
-	width: 19vw;         /* 10% del ancho de la ventana */
+	left: -18vw;
+	width: 16.5vw;         /* 10% del ancho de la ventana */
     height: auto;
 }
 	
