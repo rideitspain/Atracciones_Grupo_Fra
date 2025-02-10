@@ -237,7 +237,7 @@ img:hover{
 	top: 1.5vw;
 	left: -5vw;
 	width: 22vw;         /* 10% del ancho de la ventana */
-    height: auto;
+    	height: auto;
 	background-color: rgba(0, 0, 0, 0.5);
 }
 
@@ -247,7 +247,7 @@ img:hover{
 	left: 25vw;
 	 background-color: rgba(0, 0, 0, 0.5);
 	width: 24vw;         /* 10% del ancho de la ventana */
-    height: auto;
+    	height: auto;
 }
 
 .logo9{
@@ -255,7 +255,7 @@ img:hover{
 	top: 1.5vw;
 	left: -23vw;
 	width: 19vw;         /* 10% del ancho de la ventana */
-    height: auto;
+    	height: auto;
 }
 	
 }
