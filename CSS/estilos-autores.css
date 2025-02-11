@@ -237,23 +237,25 @@ img:hover{
 	top: -5vw;
 	left: -5vw;
 	width: 22vw;         /* 10% del ancho de la ventana */
-    	height: auto;
+    height: auto;
 	background-color: rgba(0, 0, 0, 0.5);
 }
+
 .logo7{
 	position: relative;  
 	top: -5vw;
 	left: 25vw;
-	background-color: rgba(0, 0, 0, 0.5);
+	 background-color: rgba(0, 0, 0, 0.5);
 	width: 24vw;         /* 10% del ancho de la ventana */
-   	height: auto;
+    height: auto;
 }
+
 .logo9{
 	position: relative;   
 	top: 1.5vw;
 	left: -23vw;
 	width: 19vw;         /* 10% del ancho de la ventana */
-  	height: auto;
+    height: auto;
 }
 	
 }
@@ -446,41 +448,15 @@ button:active {
     height: auto;
 }
 
-.logo7{
-	position: relative;  
-	top: 60vw;
-	left: -2vw;
-	width: 35vw;         /* 10% del ancho de la ventana */
-    	height: auto;
-	background-color: rgba(0, 0, 0, 0.5);
-}
-
-.logo8{
-	position: relative;   
-	top: 30vw;
-	left: 25vw;
-	width: 35vw;         /* 10% del ancho de la ventana */
-	height: auto;
-	background-color: rgba(0, 0, 0, 0.5);
-}
-
-.logo9{
-	position: relative;   
-	top: 4vw;
-	left: -26vw;
-	width: 25vw;         /* 10% del ancho de la ventana */
-	height: auto;
-	
-}
-
 .rojo{
 	position: relative; 
 	top: 60vw;}
 	
 .rojo2{
-		width: 200%;
+		width: 120%;
+		height: 200%;
 		position: relative; 
-		left: -50vw;
+		left: -8vw;
 }
 
 
@@ -537,4 +513,5 @@ li:hover {
     height: 50vw; /* Altura de 500 píxeles */
     border: 10px solid rgba(161, 76, 169, 0.7); /* Bordes alrededor del iframe */
 }
+
 
